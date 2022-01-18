@@ -5,4 +5,4 @@ LABEL maintainer="Matt Bentley <mbentley@mbentley.net>"
 # install tools that are helpful
 #   bind-tools - provides dig
 #   util-linux - provides nsenter
-RUN apk add --no-cache bash bash-completion bind-tools curl iperf3 iputils jq lynx netcat-openbsd socat util-linux wget
+RUN apk add --no-cache bash bash-completion bind-tools curl iperf3 iputils jq lynx netcat-openbsd socat util-linux vim wget
