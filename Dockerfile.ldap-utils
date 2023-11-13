@@ -1,0 +1,5 @@
+# based on swissarmy - not enough reason to build a separate image frequently for a rarely used utility image
+FROM mbentley/swissarmy:latest
+
+USER nobody
+CMD echo "available commands:"; ls /usr/bin | grep ldap
