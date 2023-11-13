@@ -2,9 +2,12 @@
 FROM mbentley/alpine:latest
 LABEL maintainer="Matt Bentley <mbentley@mbentley.net>"
 
-# install tools that are helpful
+# packages that provide more than what is obvious from the name:
 #   bind-tools - provides dig
+#   netcat-openbsd - provides nc
+#   openldap-clients - many ldap utilities
 #   util-linux - provides nsenter
+
 RUN apk add --no-cache bash bash-completion bind-tools curl iperf3 iputils jq lynx netcat-openbsd socat util-linux vim wget
 
 # disable mouse for vim
