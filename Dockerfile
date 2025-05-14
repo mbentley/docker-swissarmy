@@ -8,7 +8,7 @@ LABEL maintainer="Matt Bentley <mbentley@mbentley.net>"
 #   openldap-clients - many ldap utilities
 #   util-linux - provides nsenter
 
-RUN apk add --no-cache bash bash-completion bind-tools curl iperf3 iputils jq lynx netcat-openbsd openldap-clients socat util-linux vim wget
+RUN apk add --no-cache bash bash-completion bind-tools curl iperf3 iputils jq lynx netcat-openbsd openldap-clients socat tcpdump util-linux vim wget
 
 # disable mouse for vim
 RUN echo 'set mouse=' >> /etc/vim/vimrc &&\
