@@ -24,6 +24,8 @@ List of tools that this image provides:
 * `lynx`
 * `netcat-openbsd` (provides `nc`)
 * `openldap-clients` (ldap utilities)
+* `socat`
+* `tcpdump`
 * `util-linux` (provides `nsenter`)
 * `vim`
 * `wget`
